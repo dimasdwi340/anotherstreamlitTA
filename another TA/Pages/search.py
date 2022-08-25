@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
-from streamlit import caching
+# from streamlit import caching
 import requests
 
 def search():
@@ -25,5 +25,8 @@ def search():
         with center:
             username = st.text_input("")
             cari = st.button("🕵️Cari")
+            scrap = st.button("scrap cepat!")
             if cari:
                 st.session_state.active_page = 'Result'
+            if scrap:
+                st.session_state.active_page = 'Hasilscrap'

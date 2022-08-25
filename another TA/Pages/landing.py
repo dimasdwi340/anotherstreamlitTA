@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
-from streamlit import caching
+# from streamlit import caching
 
 
 def landing():

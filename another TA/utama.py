@@ -1,5 +1,5 @@
 import streamlit as st
-from multiapp import MultiApp
+# from multiapp import MultiApp
 from streamlit_lottie import st_lottie
 import requests
 from streamlit_elements import Elements
@@ -52,4 +52,3 @@ def main():
             ## Know Your Talent! \n
             InfluCheck membantu kamu untuk mengetahui profil dan persona dari calon talent kamu, data yang kami tampilkan berdasarkan Instagram secara real time hanya dengan memasukkan username Instagram calon talent kamu.
             """)    
-
